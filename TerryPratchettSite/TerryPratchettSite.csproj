@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\AmazingMaurice.jpg" />
+    <None Include="wwwroot\images\CarpeJugulum.jpg" />
+    <None Include="wwwroot\images\CarpetPeople.jpg" />
+    <None Include="wwwroot\images\ColourOfMagic.jpg" />
+    <None Include="wwwroot\images\Dodger.jpg" />
+    <None Include="wwwroot\images\EqualRites.jpg" />
+    <None Include="wwwroot\images\Eric.jpg" />
+    <None Include="wwwroot\images\FeetOfClay.jpg" />
+    <None Include="wwwroot\images\GoingPostal.jpg" />
+    <None Include="wwwroot\images\GoodOmens.jpg" />
+    <None Include="wwwroot\images\Guards.jpg" />
+    <None Include="wwwroot\images\HatFullOFTIme.jpg" />
+    <None Include="wwwroot\images\Hogfather.jpg" />
+    <None Include="wwwroot\images\IntrestingTimes.jpg" />
+    <None Include="wwwroot\images\IShallWearMidnight.jpg" />
+    <None Include="wwwroot\images\Jingo.jpg" />
+    <None Include="wwwroot\images\LordsAndLadies.jpg" />
+    <None Include="wwwroot\images\MakingMoney.jpg" />
+    <None Include="wwwroot\images\Maskerade.jpg" />
+    <None Include="wwwroot\images\MenAtArms.jpg" />
+    <None Include="wwwroot\images\MonsterousRegiment.jpg" />
+    <None Include="wwwroot\images\Mort.jpg" />
+    <None Include="wwwroot\images\MovingPictures.jpg" />
+    <None Include="wwwroot\images\Nation.jpg" />
+    <None Include="wwwroot\images\NightWatch.jpg" />
+    <None Include="wwwroot\images\Pyramids.jpg" />
+    <None Include="wwwroot\images\RaisingSteam.jpg" />
+    <None Include="wwwroot\images\ReaperMan.jpg" />
+    <None Include="wwwroot\images\ShepherdsCrown.jpg" />
+    <None Include="wwwroot\images\SmallGods.jpg" />
+    <None Include="wwwroot\images\Snuff.jpg" />
+    <None Include="wwwroot\images\SoulMusic.jpg" />
+    <None Include="wwwroot\images\Sourcery.jpg" />
+    <None Include="wwwroot\images\StrokeOfPen.jpg" />
+    <None Include="wwwroot\images\TerryPratchett.jpg" />
+    <None Include="wwwroot\images\TheFifthElephant.jpg" />
+    <None Include="wwwroot\images\TheLastContinent.jpg" />
+    <None Include="wwwroot\images\TheLastHero.jpg" />
+    <None Include="wwwroot\images\TheLightFantastic.jpg" />
+    <None Include="wwwroot\images\TheTruth.jpg" />
+    <None Include="wwwroot\images\TheWeeFreeMen.jpg" />
+    <None Include="wwwroot\images\ThiefOfTime.jpg" />
+    <None Include="wwwroot\images\Thud.jpg" />
+    <None Include="wwwroot\images\TrollBridge.jpg" />
+    <None Include="wwwroot\images\Truckers.jpg" />
+    <None Include="wwwroot\images\UnseenAcademicals.jpg" />
+    <None Include="wwwroot\images\Wintersmith.jpg" />
+    <None Include="wwwroot\images\WitchesAbroad.jpg" />
+    <None Include="wwwroot\images\WyrdSisters.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+  </ItemGroup>
+
+</Project>

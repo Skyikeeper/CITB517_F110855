@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TerryPratchettSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TerryPratchettSite.fje6l90rk6.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\AmazingMaurice.jpg",
+      "PackagePath": "staticwebassets\\images\\AmazingMaurice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\CarpeJugulum.jpg",
+      "PackagePath": "staticwebassets\\images\\CarpeJugulum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\CarpetPeople.jpg",
+      "PackagePath": "staticwebassets\\images\\CarpetPeople.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\ColourOfMagic.jpg",
+      "PackagePath": "staticwebassets\\images\\ColourOfMagic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Dodger.jpg",
+      "PackagePath": "staticwebassets\\images\\Dodger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\EqualRites.jpg",
+      "PackagePath": "staticwebassets\\images\\EqualRites.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Eric.jpg",
+      "PackagePath": "staticwebassets\\images\\Eric.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\FeetOfClay.jpg",
+      "PackagePath": "staticwebassets\\images\\FeetOfClay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\GoingPostal.jpg",
+      "PackagePath": "staticwebassets\\images\\GoingPostal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\GoodOmens.jpg",
+      "PackagePath": "staticwebassets\\images\\GoodOmens.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Guards.jpg",
+      "PackagePath": "staticwebassets\\images\\Guards.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\HatFullOFTIme.jpg",
+      "PackagePath": "staticwebassets\\images\\HatFullOFTIme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Hogfather.jpg",
+      "PackagePath": "staticwebassets\\images\\Hogfather.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\IShallWearMidnight.jpg",
+      "PackagePath": "staticwebassets\\images\\IShallWearMidnight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\IntrestingTimes.jpg",
+      "PackagePath": "staticwebassets\\images\\IntrestingTimes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Jingo.jpg",
+      "PackagePath": "staticwebassets\\images\\Jingo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\LordsAndLadies.jpg",
+      "PackagePath": "staticwebassets\\images\\LordsAndLadies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\MakingMoney.jpg",
+      "PackagePath": "staticwebassets\\images\\MakingMoney.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Maskerade.jpg",
+      "PackagePath": "staticwebassets\\images\\Maskerade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\MenAtArms.jpg",
+      "PackagePath": "staticwebassets\\images\\MenAtArms.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\MonsterousRegiment.jpg",
+      "PackagePath": "staticwebassets\\images\\MonsterousRegiment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Mort.jpg",
+      "PackagePath": "staticwebassets\\images\\Mort.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\MovingPictures.jpg",
+      "PackagePath": "staticwebassets\\images\\MovingPictures.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Nation.jpg",
+      "PackagePath": "staticwebassets\\images\\Nation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\NightWatch.jpg",
+      "PackagePath": "staticwebassets\\images\\NightWatch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Pyramids.jpg",
+      "PackagePath": "staticwebassets\\images\\Pyramids.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\RaisingSteam.jpg",
+      "PackagePath": "staticwebassets\\images\\RaisingSteam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\ReaperMan.jpg",
+      "PackagePath": "staticwebassets\\images\\ReaperMan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\ShepherdsCrown.jpg",
+      "PackagePath": "staticwebassets\\images\\ShepherdsCrown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\SmallGods.jpg",
+      "PackagePath": "staticwebassets\\images\\SmallGods.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Snuff.jpg",
+      "PackagePath": "staticwebassets\\images\\Snuff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\SoulMusic.jpg",
+      "PackagePath": "staticwebassets\\images\\SoulMusic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Sourcery.jpg",
+      "PackagePath": "staticwebassets\\images\\Sourcery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\StrokeOfPen.jpg",
+      "PackagePath": "staticwebassets\\images\\StrokeOfPen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TerryPratchett.jpg",
+      "PackagePath": "staticwebassets\\images\\TerryPratchett.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheFifthElephant.jpg",
+      "PackagePath": "staticwebassets\\images\\TheFifthElephant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheLastContinent.jpg",
+      "PackagePath": "staticwebassets\\images\\TheLastContinent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheLastHero.jpg",
+      "PackagePath": "staticwebassets\\images\\TheLastHero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheLightFantastic.jpg",
+      "PackagePath": "staticwebassets\\images\\TheLightFantastic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheTruth.jpg",
+      "PackagePath": "staticwebassets\\images\\TheTruth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TheWeeFreeMen.jpg",
+      "PackagePath": "staticwebassets\\images\\TheWeeFreeMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\ThiefOfTime.jpg",
+      "PackagePath": "staticwebassets\\images\\ThiefOfTime.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Thud.jpg",
+      "PackagePath": "staticwebassets\\images\\Thud.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\TrollBridge.jpg",
+      "PackagePath": "staticwebassets\\images\\TrollBridge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Truckers.jpg",
+      "PackagePath": "staticwebassets\\images\\Truckers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\UnseenAcademicals.jpg",
+      "PackagePath": "staticwebassets\\images\\UnseenAcademicals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\Wintersmith.jpg",
+      "PackagePath": "staticwebassets\\images\\Wintersmith.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\WitchesAbroad.jpg",
+      "PackagePath": "staticwebassets\\images\\WitchesAbroad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\images\\WyrdSisters.jpg",
+      "PackagePath": "staticwebassets\\images\\WyrdSisters.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mares\\Desktop\\siteeee\\TerryPratchettSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TerryPratchettSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TerryPratchettSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TerryPratchettSite.props",
+      "PackagePath": "build\\TerryPratchettSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TerryPratchettSite.props",
+      "PackagePath": "buildMultiTargeting\\TerryPratchettSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TerryPratchettSite.props",
+      "PackagePath": "buildTransitive\\TerryPratchettSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

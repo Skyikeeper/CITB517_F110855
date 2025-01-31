@@ -1,0 +1,101 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terry Pratchett</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+<body>
+	<header>
+		<h1>Sir Terence David John Pratchett</h1>
+	</header>
+	
+	<nav>
+		<a href="/Index">Home</a>
+		<a href="/gallery">Gallery</a>
+		<a asp-controller="Reviews" asp-action="Index">Reviews</a>
+
+		@* if logged in , show logout button, *@
+		@if (User.Identity.IsAuthenticated)
+		{
+			<a asp-area="Identity" asp-page="/Account/Logout">Logout</a>
+		}
+		@* else show login and register buttons *@
+		else
+		{
+			<a asp-area="Identity" asp-page="/Account/Login">Login</a>
+			<a asp-area="Identity" asp-page="/Account/Register">Register</a>
+
+		}
+
+	</nav>
+
+	<div class="main-content">
+		<img src="images\TerryPratchett.jpg">
+		<div class="text-box">
+			<p>
+				<strong><h2>Sir Terence David John Pratchett</h2></strong>  (28 April 1948 – 12 March 2015) was an English author, humorist, and satirist,
+				best known for the Discworld series of 41 comic fantasy novels published between 1983 and 2015, and for the apocalyptic comedy novel Good Omens (1990),
+				which he co-wrote with Neil Gaiman.
+			</p>
+		</div>
+		<div class="text-box">
+			<p>
+				<strong><h3>Early life</h3></strong>
+				Pratchett was born on 28 April 1948 in Beaconsfield in Buckinghamshire, England, the only child of David (1921–2006),
+				a mechanic, and Eileen Pratchett (1922–2010), a secretary, of Hay-on-Wye. His maternal grandparents came from Ireland.
+				Pratchett attended Holtspur School, where he was bullied for his speech impediments. He was bothered by the head teacher,
+				who, he said, thought "he could tell how successful you were going to be in later life by how well you could read or write at the age of six".
+			</p>
+		</div>
+		<div class="text-box">
+			<p>
+				<strong><h3>Career</h3></strong>
+				In 1968 Pratchett interviewed Peter Bander van Duren, co-director of a small publishing company, Colin Smythe Ltd.
+				Pratchett mentioned that he had written a manuscript, The Carpet People. Colin Smythe Ltd published the book in 1971,
+				with illustrations by Pratchett. It received strong, although few, reviews and was followed by the science fiction novels The Dark Side of the Sun (1976)
+				and Strata (1981). In the 1970s and 1980s, Pratchett published stories in a regional newspaper under the pseudonym Patrick Kearns
+			</p>
+		</div>
+		<div class="text-box">
+			<p>
+				<strong><H3>Awards and honours</H3></strong>
+				Pratchett received a knighthood for "services to literature" in the 2009 UK New Year Honours list.
+				He was previously appointed Officer of the Order of the British Empire, also for "services to literature", in 1998.
+				He formally received the accolade at Buckingham Palace on 18 February 2009. Pratchett commented in the Ansible science fiction/fan newsletter,
+				"I suspect the 'services to literature' consisted of refraining from trying to write any", but added, "Still, I cannot help feeling mightily chuffed about it."
+				On 31 December 2008, it was announced that Pratchett would be knighted (as a Knight Bachelor) in the Queen's 2009 New Year Honours.
+			</p>
+		</div>
+		<div class="text-box">
+			<p>
+				<strong><h3>Death</h3></strong>
+				Pratchett died at his home from complications of Alzheimer's disease on the morning of 12 March 2015. He was 66 years old.
+				The Telegraph reported an unidentified source as saying that, despite his previous discussion of assisted suicide, his death had been natural.
+				After Pratchett's death, his assistant, Rob Wilkins, wrote from the official Terry Pratchett Twitter account:<br>
+				AT LAST, SIR TERRY, WE MUST WALK TOGETHER.<br>
+				Terry took Death's arm and followed him through the doors and on to the black desert under the endless night.<br>
+				The End
+			</p>
+		</div>
+	</div>
+
+	<footer>
+		<p>All text from Wikipidea.</p>
+	</footer>
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>

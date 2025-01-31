@@ -1,0 +1,34 @@
+﻿@model ReviewDTO
+
+@{
+ViewData["Title"] = "Delete";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Reviews</title>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+
+<header>
+<h1>Are you sure you want to delete this?</h1>
+</header>
+
+ <div id="reviews-list"> 
+ <p><strong>Email:</strong> ReviewDTO.Email</p> 
+ <p><strong>Content:</strong> </p> 
+</div>
+
+<div class="main-content">
+<form asp-action="Delete" id="review-form">
+	<input type="hidden" asp-for="Id" />
+	<button type="submit" class="btn btn-danger">Delete</button>
+	<a asp-action="Index">Cancel</a>
+</form>
+</div>
+
+

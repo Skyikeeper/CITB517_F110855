@@ -1,0 +1,94 @@
+﻿@page
+@model TerryPratchettSite.Pages.GalleryModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terry Pratchett</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h1>Books</h1>
+    </header>
+
+    <nav>
+        <a href="/Index">Home</a>
+        <a href="/gallery">Gallery</a>
+        <a asp-controller="Reviews" asp-action="Index">Reviews</a>
+
+        @* if logged in , show logout button *@
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-area="Identity" asp-page="/Account/Logout">Logout</a>
+        }
+        @* else show login and register buttons *@
+        else
+        {
+            <a asp-area="Identity" asp-page="/Account/Login">Login</a>
+            <a asp-area="Identity" asp-page="/Account/Register">Register</a>
+        }
+    </nav>
+
+    <div class="gallery">
+        <img src="images/AmazingMaurice.jpg">
+        <img src="images/CarpeJugulum.jpg">
+        <img src="images/CarpetPeople.jpg">
+        <img src="images/CarpetPeople.jpg">
+        <img src="images/ColourOfMagic.jpg">
+        <img src="images/Dodger.jpg">
+        <img src="images/EqualRites.jpg">
+        <img src="images/Eric.jpg">
+        <img src="images/FeetOfClay.jpg">
+        <img src="images/GoingPostal.jpg">
+        <img src="images/GoodOmens.jpg">
+        <img src="images/Guards.jpg">
+        <img src="images/HatFullOFTIme.jpg">
+        <img src="images/Hogfather.jpg">
+        <img src="images/IntrestingTimes.jpg">
+        <img src="images/IShallWearMidnight.jpg">
+        <img src="images/Jingo.jpg">
+        <img src="images/LordsAndLadies.jpg">
+        <img src="images/MakingMoney.jpg">
+        <img src="images/Maskerade.jpg">
+        <img src="images/MenAtArms.jpg">
+        <img src="images/MonsterousRegiment.jpg">
+        <img src="images/Mort.jpg">
+        <img src="images/MovingPictures.jpg">
+        <img src="images/Nation.jpg">
+        <img src="images/NightWatch.jpg">
+        <img src="images/Pyramids.jpg">
+        <img src="images/RaisingSteam.jpg">
+        <img src="images/ReaperMan.jpg">
+        <img src="images/ShepherdsCrown.jpg">
+        <img src="images/SmallGods.jpg">
+        <img src="images/Snuff.jpg">
+        <img src="images/SoulMusic.jpg">
+        <img src="images/Sourcery.jpg">
+        <img src="images/TheFifthElephant.jpg">
+        <img src="images/TheLastContinent.jpg">
+        <img src="images/TheLastHero.jpg">
+        <img src="images/TheLightFantastic.jpg">
+        <img src="images/TheTruth.jpg">
+        <img src="images/TheWeeFreeMen.jpg">
+        <img src="images/ThiefOfTime.jpg">
+        <img src="images/Thud.jpg">
+        <img src="images/TrollBridge.jpg">
+        <img src="images/Truckers.jpg">
+        <img src="images/UnseenAcademicals.jpg">
+        <img src="images/Wintersmith.jpg">
+        <img src="images/WitchesAbroad.jpg">
+        <img src="images/WyrdSisters.jpg">
+    </div>
+
+    <footer>
+        <p>I stole the pictures from internet.</p>
+    </footer>
+</body>
+</html>

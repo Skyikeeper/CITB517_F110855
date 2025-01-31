@@ -1,0 +1,42 @@
+﻿@model ReviewDTO
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="main-content">
+
+        <form asp-action="Create" method="post" id="review-form">
+			<!-- Email input (this is the only one to be manually filled by the user) -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!-- Content input (this is the only one to be manually filled by the user) -->
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <div class="form-group">
+                <textarea id="review-input" placeholder="Write your review here..." required asp-for="Content" class="form-control"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit">Create</button>
+
+        </form>
+
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

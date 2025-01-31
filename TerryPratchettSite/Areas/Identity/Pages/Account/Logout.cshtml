@@ -1,0 +1,31 @@
+﻿@page
+@model LogoutModel
+@{
+	ViewData["Title"] = "Log out";
+}
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terry Pratchett</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+
+<header>
+	<h1>Are you sure you want to logout?</h1>
+</header>
+
+
+
+
+<div class="main-content">
+	@* logout and return to main page *@
+	<form id="review-form" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+		<button type="submit">Click here to Logout</button>
+		<a asp-action="Index">Cancel</a>
+	</form>
+
+</div>
+

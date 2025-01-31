@@ -1,0 +1,174 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+
+
+/* NavBar Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem; /* Add padding to the main content */
+    
+}
+
+    .main-content img {
+        max-width: 100%;
+        height: auto;
+        padding: 2rem; /*Prevents img from sticking to header*/
+    }
+
+    .main-content .text-box {
+        max-width: 900px;
+        text-align: justify;
+        font-size: 1.1rem;
+        padding: 1rem; /* Add padding to the text-box */
+        margin: 0 1rem; /* Add margin to ensure text does not stick to the sides */
+        box-sizing: border-box;
+        border-bottom: 5px solid black; /*The separation line*/
+    }
+
+/* Footer Styling */
+footer {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem; /* Prevents text from sticking on top of footer*/
+    
+}
+
+
+/* General Gallery Styling */
+.gallery {
+    margin: 0 auto; /* Centers the gallery on the page */
+    overflow: hidden; /* Clears floated elements */
+    text-align: center; /* Ensures container is centered */
+}
+
+    .gallery img {
+        float: left; /* Floats images to align in a row */
+        width: 30%; /* 3 images per row*/
+        margin: 1.5%; /* Space between images */
+        /* Maintain aspect ratio */
+        aspect-ratio: 3 / 4; /*  3:4 ratio for book covers */
+        object-fit: fill; /* Ensures the image fits  */
+
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+        /* Hover Effect */
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .gallery img {
+        width: 45%; /* 2 images per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 90%; /* 1 image per row */
+    }
+}
+
+
+#review-form {
+    margin: 20px 0;
+    text-align: center;
+    width: 50%;
+}
+
+/* Review text box */
+#review-input {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    display: block;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Review button */
+#review-form button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+   
+}
+
+#review-form a {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+#reviews-list {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid darkgray;
+    background-color: whitesmoke;
+}
+
+#reviews-container {
+    padding: 0;
+}
+
+    #reviews-container li {
+        margin: 10px 0;
+        padding: 10px;
+        border-bottom: 1px solid gray;
+    }

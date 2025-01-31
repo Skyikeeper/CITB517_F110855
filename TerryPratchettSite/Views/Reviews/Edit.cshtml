@@ -1,0 +1,43 @@
+﻿@model ReviewDTO
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terry Pratchett</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+
+<header>
+	<h1>Edit</h1>
+</header>
+
+<div class="main-content">
+
+	@* edit form *@
+	<form asp-action="Edit" method="post" id="review-form">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<input type="hidden" asp-for="Id" />
+
+		<div class="form-group">
+			<input asp-for="Content" class="form-control" placeholder="Edit your review here..." id="review-input" />
+			<span asp-validation-for="Content" class="text-danger"></span>
+		</div>
+
+
+		@* edit and cancel buttons *@
+		<button type="submit">Edit</button>
+		<a asp-action="Index">Cancel</a>
+
+	</form>
+
+</div>
+
+
+
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

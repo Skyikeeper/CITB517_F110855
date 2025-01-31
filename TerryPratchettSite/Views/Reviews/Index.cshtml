@@ -1,0 +1,77 @@
+﻿@model ReviewViewModel
+
+@{
+	ViewData["Title"] = "All Reviews";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Reviews</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/TerryPratchettSite.styles.css" asp-append-version="true" />
+</head>
+<body>
+	<header>
+		<h1>Book Reviews</h1>
+	</header>
+
+	<nav>
+		<a href="/Index">Home</a>
+		<a href="/gallery">Gallery</a>
+		<a asp-controller="Reviews" asp-action="Index">Reviews</a>
+
+		@* if logged in , show logout button, *@
+		@if (User.Identity.IsAuthenticated)
+		{
+			<a asp-area="Identity" asp-page="/Account/Logout">Logout</a>
+		}
+		@* else show login and register buttons *@
+		else  
+		{
+			<a asp-area="Identity" asp-page="/Account/Login">Login</a>
+			<a asp-area="Identity" asp-page="/Account/Register">Register</a>
+
+		}
+
+	</nav>
+
+	<div class="container">
+
+		@await Html.PartialAsync("Create", Model.ReviewForm)
+
+		<div id="reviews-list">
+			<h3>All Reviews</h3>
+			<div class="row">
+				@foreach (var item in Model.Reviews)
+				{
+					<div class="col-md-6 col-lg-4 mb-4">
+						<div class="card">
+							<div class="card-body">
+								<p><strong>Email:</strong> @item.Email</p>
+								<p><strong>Content:</strong> @item.Content</p>
+								<p><strong>Date:</strong> @item.Date.ToString("yyyy-MM-dd HH:mm")</p>
+
+								@if (User.Identity.IsAuthenticated && User.Identity.Name == item.Email)
+								{
+									<div class="d-flex justify-content-end">
+										<a class="btn btn-success mx-1" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+										<a class="btn btn-danger mx-1" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+									</div>
+								}
+							</div>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>All text from Wikipedia.</p>
+	</footer>
+</body>
+</html>
